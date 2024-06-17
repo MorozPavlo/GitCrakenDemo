@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		004161802C20B21A008A9DB7 /* NewFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0041617F2C20B21A008A9DB7 /* NewFeature.swift */; };
 		00A39BF02C0FA539006FC976 /* GitCrakenDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A39BEF2C0FA539006FC976 /* GitCrakenDemoApp.swift */; };
 		00A39BF22C0FA539006FC976 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A39BF12C0FA539006FC976 /* ContentView.swift */; };
 		00A39BF42C0FA53A006FC976 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00A39BF32C0FA53A006FC976 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0041617F2C20B21A008A9DB7 /* NewFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewFeature.swift; sourceTree = "<group>"; };
 		00A39BEC2C0FA539006FC976 /* GitCrakenDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitCrakenDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00A39BEF2C0FA539006FC976 /* GitCrakenDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitCrakenDemoApp.swift; sourceTree = "<group>"; };
 		00A39BF12C0FA539006FC976 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +34,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0041617E2C20B20E008A9DB7 /* NewFeature */ = {
+			isa = PBXGroup;
+			children = (
+				0041617F2C20B21A008A9DB7 /* NewFeature.swift */,
+			);
+			path = NewFeature;
+			sourceTree = "<group>";
+		};
 		00A39BE32C0FA539006FC976 = {
 			isa = PBXGroup;
 			children = (
@@ -52,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				00A39BEF2C0FA539006FC976 /* GitCrakenDemoApp.swift */,
+				0041617E2C20B20E008A9DB7 /* NewFeature */,
 				00A39BF12C0FA539006FC976 /* ContentView.swift */,
 				00A39BF32C0FA53A006FC976 /* Assets.xcassets */,
 				00A39BF52C0FA53A006FC976 /* Preview Content */,
@@ -139,6 +150,7 @@
 			files = (
 				00A39BF22C0FA539006FC976 /* ContentView.swift in Sources */,
 				00A39BF02C0FA539006FC976 /* GitCrakenDemoApp.swift in Sources */,
+				004161802C20B21A008A9DB7 /* NewFeature.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
