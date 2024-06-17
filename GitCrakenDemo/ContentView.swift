@@ -19,6 +19,12 @@ struct ContentView: View {
             } label: {
                 Text("Test")
             }
+            
+            Button {
+                print("")
+            } label: {
+                Text("Test")
+            }
 
         }
         .padding()
