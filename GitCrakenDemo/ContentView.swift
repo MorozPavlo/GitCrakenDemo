@@ -13,17 +13,17 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, sideckick!!!")
+            Text("Hello, private company")
             Button {
                 print("")
             } label: {
-                Text("Test")
+                Text("Test22222")
             }
             
             Button {
                 print("")
             } label: {
-                Text("Test")
+                Text("Test2222")
             }
 
         }
